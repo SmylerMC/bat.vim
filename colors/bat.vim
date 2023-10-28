@@ -8,8 +8,9 @@ let b:sunshade="#fe8a26"       " orange
 let b:malibu="#62d6fd"         " light blue
 let b:pear="#a6e22e"           " light green
 let b:carnation="#f36464"      " light red
-let b:fushia="#F92672"      " fushia
+let b:fushia="#F92672"         " fushia
 let b:heliotrope="#be84ff"     " light purple
+let b:sand="#ffd242"           " Yellow-ish (strings)
 
 " other (taken from molokai):
 let b:tundora="#444444"        " dark gray
@@ -131,3 +132,14 @@ call s:hi("htmlTagName",                b:fushia,       "NONE",         "NONE")
 call s:hi("cssTagName",                 b:fushia,       "NONE",         "NONE")
 call s:hi("xmlEqual",                   b:pear,         "NONE",         "NONE")
 call s:hi("htmlEqual",                  b:pear,         "NONE",         "NONE")
+
+"    YAML
+call s:hi("yamlConstant",               b:heliotrope,   "NONE",         "NONE")
+call s:hi("yamlBlockMappingKey",        b:fushia,       "NONE",         "NONE")
+call s:hi("yamlPlainScalar",            b:sand,         "NONE",         "NONE")
+call s:hi("yamlKeyValueDelimiter",      b:spring_wood,  "NONE",         "NONE")
+call s:hi("yamlBlockCollectionItemStart", b:spring_wood,  "NONE",       "NONE")
+call s:hi("yamlDocumentStart",          b:pear,         "NONE",         "NONE")
+call s:hi("yamlDocumentEnd",            b:pear,         "NONE",         "NONE")
+call s:hi("yamlAlias",                  b:spring_wood,  "NONE",         "NONE")
+call s:hi("yamlNodeTag",                b:malibu,       "NONE",         "NONE")
