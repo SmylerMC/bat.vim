@@ -82,7 +82,15 @@ call  s:hi("DiffAdd",         b:spring_wood,  "#45820c",      "bold")
 call  s:hi("DiffDelete",      "#8a0707",      "NONE",         "NONE")
 call  s:hi("DiffChange",      b:spring_wood,  "#213655",      "NONE")
 call  s:hi("DiffText",        b:spring_wood,  "#204a87",      "bold")
-"     vim-go:
+
+"     CSS / SCSS
+call s:hi("cssBraces",       b:white,       "NONE",         "NONE")
+call s:hi("cssUnitDecorators", b:fushia,    "NONE",         "NONE")
+call s:hi("cssColor",        b:heliotrope,  "NONE",         "NONE")
+call s:hi("cssAttrComma",    b:white,       "NONE",         "NONE")
+call s:hi("sassClassChar",   b:pear,        "NONE",         "NONE")
+
+"     Go
 call  s:hi("goReceiverVar",   b:white,        "NONE",         "NONE")
 call  s:hi("goParamName",     b:white,        "NONE",         "NONE")
 call  s:hi("goReceiverType",  b:malibu,       "NONE",         "NONE")
@@ -96,5 +104,14 @@ call  s:hi("javaStatement",   b:fushia,       "NONE",         "NONE")
 call  s:hi("javaConstant",    b:fushia,       "NONE",         "NONE")
 call  s:hi("javaScopeDecl",   b:fushia,       "NONE",         "NONE")
 call  s:hi("javaTypedef",     b:fushia,       "NONE",         "NONE")
-call  s:hi("javaStorageClass",   b:fushia,       "NONE",         "NONE")
+call  s:hi("javaStorageClass", b:fushia,      "NONE",         "NONE")
 call  s:hi("javaLabelRegion", b:fushia,       "NONE",         "NONE")
+
+"     XML / HTML
+call s:hi("xmlTag",           b:white,       "NONE",         "NONE")
+call s:hi("htmlTag",          b:white,       "NONE",         "NONE")
+call s:hi("xmlTagName",       b:fushia,      "NONE",         "NONE")
+call s:hi("htmlTagName",      b:fushia,      "NONE",         "NONE")
+call s:hi("cssTagName",       b:fushia,      "NONE",         "NONE")
+call s:hi("xmlEqual",         b:pear,        "NONE",         "NONE")
+call s:hi("htmlEqual",        b:pear,        "NONE",         "NONE")
