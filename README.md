@@ -21,7 +21,7 @@ a list. Most modern ones do.
 
 With Vim 8, simply:
 
-    git clone git@github.com:jamespwilliams/bat.vim.git ~/.vim/pack/plugins/start/bat.vim
+    git clone git@github.com:SmylerMC/bat.vim.git ~/.vim/pack/plugins/start/bat.vim
 
 Alternatively, use a package manager in the normal way.
 
