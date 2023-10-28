@@ -2,7 +2,6 @@
 let b:outer_space="#263238"    " dark blue (background colour)
 let b:spring_wood="#f8f8f0"    " very light yellow
 let b:sunshade="#fe8a26"       " orange
-let b:white="#ffffff"          " white
 let b:malibu="#62d6fd"         " light blue
 let b:pear="#a6e22e"           " light green
 let b:carnation="#f36464"      " light red
@@ -42,7 +41,7 @@ call  s:hi("VertSplit",       b:storm_dust,   b:storm_dust,   "NONE")
 call  s:hi("MatchParen",      b:malibu,       "NONE",         "underline")
 call  s:hi("StatusLine",      b:spring_wood,  b:storm_dust,   "bold")
 call  s:hi("StatusLineNC",    b:spring_wood,  b:storm_dust,   "NONE")
-call  s:hi("Pmenu",           b:white,        b:tundora,      "NONE")
+call  s:hi("Pmenu",           b:spring_wood,  b:tundora,      "NONE")
 call  s:hi("PmenuSel",        "NONE",         "NONE",         "NONE")
 call  s:hi("IncSearch",       b:outer_space,  b:yellow,       "NONE")
 call  s:hi("Search",          b:outer_space,  b:yellow,       "NONE")
@@ -59,7 +58,7 @@ call  s:hi("ErrorMsg",        b:spring_wood,  b:malibu,       "NONE")
 call  s:hi("WarningMsg",      b:spring_wood,  b:malibu,       "NONE")
 call  s:hi("Float",           b:heliotrope,   "NONE",         "NONE")
 call  s:hi("Function",        b:pear,         "NONE",         "NONE")
-call  s:hi("Identifier",      b:white,        "NONE",         "NONE")
+call  s:hi("Identifier",      b:spring_wood,  "NONE",         "NONE")
 call  s:hi("Include",         b:fushia,       "NONE",         "NONE")
 call  s:hi("Keyword",         b:malibu,       "NONE",         "NONE")
 call  s:hi("Label",           "#e6db74",      "NONE",         "NONE")
@@ -67,7 +66,7 @@ call  s:hi("NonText",         b:mine_shaft,   "NONE",         "NONE")
 call  s:hi("Number",          b:heliotrope,   "NONE",         "NONE")
 call  s:hi("Operator",        b:fushia,       "NONE",         "NONE")
 call  s:hi("PreProc",         b:malibu,       "NONE",         "NONE")
-call  s:hi("TSProperty",      b:white,        "NONE",         "NONE")
+call  s:hi("TSProperty",      b:spring_wood,  "NONE",         "NONE")
 call  s:hi("Special",         "#af87fc",      "NONE",         "NONE")
 call  s:hi("SpecialKey",      b:mine_shaft,   "NONE",         "NONE")
 call  s:hi("Statement",       b:malibu,       "NONE",         "NONE")
@@ -84,15 +83,15 @@ call  s:hi("DiffChange",      b:spring_wood,  "#213655",      "NONE")
 call  s:hi("DiffText",        b:spring_wood,  "#204a87",      "bold")
 
 "     CSS / SCSS
-call s:hi("cssBraces",       b:white,       "NONE",         "NONE")
+call s:hi("cssBraces",       b:spring_wood, "NONE",         "NONE")
 call s:hi("cssUnitDecorators", b:fushia,    "NONE",         "NONE")
 call s:hi("cssColor",        b:heliotrope,  "NONE",         "NONE")
-call s:hi("cssAttrComma",    b:white,       "NONE",         "NONE")
+call s:hi("cssAttrComma",    b:spring_wood, "NONE",         "NONE")
 call s:hi("sassClassChar",   b:pear,        "NONE",         "NONE")
 
 "     Go
-call  s:hi("goReceiverVar",   b:white,        "NONE",         "NONE")
-call  s:hi("goParamName",     b:white,        "NONE",         "NONE")
+call  s:hi("goReceiverVar",   b:spring_wood,  "NONE",         "NONE")
+call  s:hi("goParamName",     b:spring_wood,  "NONE",         "NONE")
 call  s:hi("goReceiverType",  b:malibu,       "NONE",         "NONE")
 call  s:hi("goFunctionCall",  b:spring_wood,  "NONE",         "NONE")
 call  s:hi("goVarDefs",       b:spring_wood,  "NONE",         "NONE")
@@ -108,8 +107,8 @@ call  s:hi("javaStorageClass", b:fushia,      "NONE",         "NONE")
 call  s:hi("javaLabelRegion", b:fushia,       "NONE",         "NONE")
 
 "     XML / HTML
-call s:hi("xmlTag",           b:white,       "NONE",         "NONE")
-call s:hi("htmlTag",          b:white,       "NONE",         "NONE")
+call s:hi("xmlTag",           b:spring_wood, "NONE",         "NONE")
+call s:hi("htmlTag",          b:spring_wood, "NONE",         "NONE")
 call s:hi("xmlTagName",       b:fushia,      "NONE",         "NONE")
 call s:hi("htmlTagName",      b:fushia,      "NONE",         "NONE")
 call s:hi("cssTagName",       b:fushia,      "NONE",         "NONE")
