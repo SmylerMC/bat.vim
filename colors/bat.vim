@@ -10,7 +10,7 @@ let b:pear="#a6e22e"           " light green
 let b:carnation="#f36464"      " light red
 let b:fushia="#F92672"         " fushia
 let b:heliotrope="#be84ff"     " light purple
-let b:sand="#ffd242"           " Yellow-ish (strings)
+let b:sand="#e6db74"           " Yellow-ish (strings)
 
 " other (taken from molokai):
 let b:tundora="#444444"        " dark gray
@@ -75,7 +75,7 @@ call  s:hi("Special",                   "#af87fc",      "NONE",         "NONE")
 call  s:hi("SpecialKey",                b:mine_shaft,   "NONE",         "NONE")
 call  s:hi("Statement",                 b:malibu,       "NONE",         "NONE")
 call  s:hi("StorageClass",              "#66d9ef",      "NONE",         "NONE")
-call  s:hi("String",                    "#ffd242",      "NONE",         "NONE")
+call  s:hi("String",                    b:sand,         "NONE",         "NONE")
 call  s:hi("Tag",                       b:malibu,       "NONE",         "NONE")
 call  s:hi("Title",                     b:spring_wood,  "NONE",         "bold")
 call  s:hi("Todo",                      b:tundora,      b:pear,         "bold")
