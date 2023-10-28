@@ -1,3 +1,6 @@
+" Assumes Vim-Polygot is installed
+" (https://github.com/sheerun/vim-polyglot)
+
 " taken from bat:
 let b:outer_space="#263238"    " dark blue (background colour)
 let b:spring_wood="#f8f8f0"    " very light yellow
@@ -105,6 +108,20 @@ call  s:hi("javaScopeDecl",   b:fushia,       "NONE",         "NONE")
 call  s:hi("javaTypedef",     b:fushia,       "NONE",         "NONE")
 call  s:hi("javaStorageClass", b:fushia,      "NONE",         "NONE")
 call  s:hi("javaLabelRegion", b:fushia,       "NONE",         "NONE")
+
+"     JavaScript
+call  s:hi("javaScriptIdentifier", b:malibu,  "NONE",         "NONE")
+call  s:hi("javaScriptBraces", b:spring_wood, "NONE",         "NONE")
+call  s:hi("javaScriptFunction", b:malibu,    "NONE",         "NONE")
+call  s:hi("jsFunction",      b:malibu,       "NONE",         "NONE")
+call  s:hi("jsReturn",        b:fushia,       "NONE",         "NONE")
+call  s:hi("jsFuncArgs",      b:sunshade,     "NONE",         "NONE")
+call  s:hi("jsArrowFunction", b:malibu,       "NONE",         "NONE")
+call  s:hi("jsFuncCall",      b:spring_wood,  "NONE",         "NONE")
+call  s:hi("jsThis",          b:malibu,       "NONE",         "NONE")
+call  s:hi("jsRepeat",        b:fushia,       "NONE",         "NONE")
+call  s:hi("jsStatement",     b:fushia,       "NONE",         "NONE")
+
 
 "     XML / HTML
 call s:hi("xmlTag",           b:spring_wood, "NONE",         "NONE")
