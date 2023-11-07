@@ -73,7 +73,7 @@ call  s:hi("PreProc",                   b:malibu,       "NONE",         "NONE")
 call  s:hi("TSProperty",                b:spring_wood,  "NONE",         "NONE")
 call  s:hi("Special",                   "#af87fc",      "NONE",         "NONE")
 call  s:hi("SpecialKey",                b:mine_shaft,   "NONE",         "NONE")
-call  s:hi("Statement",                 b:malibu,       "NONE",         "NONE")
+call  s:hi("Statement",                 b:fushia,       "NONE",         "NONE")
 call  s:hi("StorageClass",              "#66d9ef",      "NONE",         "NONE")
 call  s:hi("String",                    b:sand,         "NONE",         "NONE")
 call  s:hi("Tag",                       b:malibu,       "NONE",         "NONE")
@@ -85,6 +85,7 @@ call  s:hi("DiffAdd",                   b:spring_wood,  "#45820c",      "bold")
 call  s:hi("DiffDelete",                "#8a0707",      "NONE",         "NONE")
 call  s:hi("DiffChange",                b:spring_wood,  "#213655",      "NONE")
 call  s:hi("DiffText",                  b:spring_wood,  "#204a87",      "bold")
+call  s:hi("Repeat",                    b:fushia,       "NONE",         "NONE")
 
 "     CSS / SCSS
 call s:hi("cssBraces",                  b:spring_wood,  "NONE",         "NONE")
@@ -103,7 +104,6 @@ call  s:hi("goVarAssign",               b:spring_wood,  "NONE",         "NONE")
 call  s:hi("goBuiltins",                b:malibu,       "NONE",         "NONE")
 
 "     Java
-call  s:hi("javaStatement",             b:fushia,       "NONE",         "NONE")
 call  s:hi("javaConstant",              b:fushia,       "NONE",         "NONE")
 call  s:hi("javaScopeDecl",             b:fushia,       "NONE",         "NONE")
 call  s:hi("javaTypedef",               b:fushia,       "NONE",         "NONE")
@@ -120,9 +120,11 @@ call  s:hi("jsFuncArgs",                b:sunshade,     "NONE",         "NONE")
 call  s:hi("jsArrowFunction",           b:malibu,       "NONE",         "NONE")
 call  s:hi("jsFuncCall",                b:spring_wood,  "NONE",         "NONE")
 call  s:hi("jsThis",                    b:malibu,       "NONE",         "NONE")
-call  s:hi("jsRepeat",                  b:fushia,       "NONE",         "NONE")
-call  s:hi("jsStatement",               b:fushia,       "NONE",         "NONE")
 
+"     Python
+call  s:hi("pythonBuiltinFunc",         b:malibu,       "NONE",         "NONE")
+call  s:hi("pythonFunctionCall",        b:malibu,       "NONE",         "NONE")
+call  s:hi("pythonInclude",             b:fushia,       "NONE",         "NONE")
 
 "     XML / HTML
 call s:hi("xmlTag",                     b:spring_wood,  "NONE",         "NONE")
