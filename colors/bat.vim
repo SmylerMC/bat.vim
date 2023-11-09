@@ -28,6 +28,9 @@ if exists("syntax_on")
   syntax reset
 endif
 
+hi CursorLine   cterm=none
+hi CursorLineNr cterm=none
+
 let g:colors_name = "bat"
 
 function! s:hi(name, fg, bg, gui)
